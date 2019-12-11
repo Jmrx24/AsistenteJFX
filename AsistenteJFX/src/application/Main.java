@@ -9,7 +9,7 @@ import javafx.stage.StageStyle;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
-
+ 
 public class Main extends Application {
 	Stage stage;
 
