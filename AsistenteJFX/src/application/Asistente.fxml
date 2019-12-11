@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="767.0" prefWidth="621.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Control">
+   <children>
+      <AnchorPane fx:id="pane1" layoutX="211.0" layoutY="284.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #B22222;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="74.0" layoutY="112.0" prefHeight="47.0" prefWidth="473.0" text="Bienvenido a nuestra aplicación" textFill="#f5f0f0">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Text fill="WHITE" fontSmoothingType="LCD" layoutX="138.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aqui podrás encontrar nuestro texto explicando la aplixcacion, pero debido a que no tenemos aun aplicacion, pues nada,esto esta de relleno." wrappingWidth="344.13671875">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane2" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #4169E1;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="111.0" layoutY="219.0" prefHeight="327.0" prefWidth="399.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Text layoutX="172.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esto pues no es nada mas que un label, que no sirve basicamente para nada, asi que bueno, esta es la segunda pantalla" wrappingWidth="277.87890625">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane3" layoutX="20.0" layoutY="20.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #32CD32;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="35.0" layoutY="179.0" prefHeight="417.0" prefWidth="532.0" style="-fx-background-color: white; -fx-border-radius: 50; -fx-background-radius: 90000;" textFill="#03534e">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Text fill="#03534e" layoutX="178.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Texto para la ultima pantalla antes de que me dejes :-(" wrappingWidth="245.951171875">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <JFXButton layoutX="452.0" layoutY="630.0" onAction="#nextAction" prefHeight="61.0" prefWidth="61.0" style="-fx-background-radius: 50; -fx-border-color: white; -fx-border-radius: 50;" text="&gt;" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="countLabel" layoutX="294.0" layoutY="646.0" prefHeight="30.0" prefWidth="34.0" text="1/3" textFill="#fcfcfc">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="114.0" layoutY="630.0" onAction="#backAction" prefHeight="61.0" prefWidth="61.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-border-color: white;" text="&lt;" textFill="#fcfcfc">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="skip" alignment="CENTER" layoutX="280.0" layoutY="705.0" onAction="#skip" prefHeight="25.0" prefWidth="61.0" style="-fx-border-color: white; -fx-background-radius: 50; -fx-border-radius: 50;" text="Skip" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
